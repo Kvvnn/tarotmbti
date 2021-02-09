@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    background-color: #010e20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : snow;
+}
+.selectButton{
+    position: relative;
+    font-size: 20px;
+    background-color: snow;
+    border: 0;
+    text-align: center;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    left: 50%;
+    transform : translateX(-50%);
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 30px;  
+}
+p{
+    margin: 0;
+}
