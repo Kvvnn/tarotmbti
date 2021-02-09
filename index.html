@@ -9,30 +9,44 @@
             text-align:center;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-image: url("mainpageSample.png");
-            background-size: 700px;
             background-position-x : center;
+            background-size: 100%;
             background-repeat: no-repeat;
             background-color: #010e20;
             color:aliceblue;
+        }
+        #indexTitle{
+            font-size: 30px;
         }
         #indexTitle{
             margin-top: 50px;
         }
         #indexMain{
             margin-top: 100px;
+            font-size: 20px;
         }
         #indexFoot{
             position: absolute;
             bottom: 20px;
             left: 50%; transform: translateX(-50%);
         }
+        button{
+            font-size: 20px;
+            border-radius: 4px;
+            background-color: aliceblue;
+            color:#010e20;
+        }
+        #indexButton:active{
+            background-color: #010e20;
+            color: snow;
+        }
     </style>
 </head>
 <body>
-    <div id = "indexTitle"> <h1>나에게 맞는 타로카드 찾기</h1> </div>
+    <div id = "indexTitle"> <h1>나에게 맞는<br \>타로카드 찾기</h1></div>
     <div id = "indexMain">
-        <h2>다음 몇 가지 질문을 통해<br \>당신에게 맞는 타로카드를 찾습니다.</h2>
-        <p><button type="button" onclick="location.href='0_IE_Q0.html'">시작</button></p>
+        다음 몇 가지 질문을 통해<br \>당신에게 맞는 타로카드를 찾습니다.
+        <p><button id="indexButton" type="button" onclick="location.href='0_IE_Q0.html'">시작</button></p>
     </div>
     <div id = "indexFoot">
         editted by <a href="https://www.instagram.com/KK_vvnn">@KK_vvnn</a>, 정새별
