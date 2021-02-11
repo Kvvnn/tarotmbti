@@ -12,7 +12,8 @@
         font-style: normal;
     }
     html{
-            background-color: white;
+        font-family: IBMPlexSansKR-Bold;
+        background-color: white;
             
 
  
@@ -25,28 +26,31 @@
             bottom: 0 ;
             width : 90% ;
             display : flex;
-            justify-content: space-between;
+            justify-content: flex-end;
         }
         .selectButton{
+            margin-left: 10px;
+            font-family: IBMPlexSansKR-Bold;
             border:0px;
             background-color: coral;
-
-            width : 45% ;
+            text-align: right;
+            width : 130px ;
             height : 200px;
-            
-            border-radius: 30px;
+            font-size : 20px;
+            border-radius: 15px;
+            padding : 10px;
             
         }
     </style>
 
 </head>
 <body>
-    <h1></h1>
-    나는 I입니당
-    <h2>당신은 I인가요? 아니면 E인가요?</h2>
+    바보의 여정
+    <h2>당신은 새로운 모험의 기회를 얻었습니다. <br \>
+        당신은 어떻게 행동할까요?</h2>
     <div id = "answerBox">
-        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">II 입니당</button>
-        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">&IE 입니당</button>
+        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">즐거운 <br \>마음으로 <br \>바로<br \>모험을<br \>떠납니다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">어떤 위험이<br \>있을 지<br \>생각하며<br \>모험 계획을<br \>세웁니다.</button>
     </div>
 </body>
 </html>
