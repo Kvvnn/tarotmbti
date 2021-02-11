@@ -4,18 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
+html{
+    overflow: hidden;
+}
 body{
     text-align:center;
     font-family:IBMPlexSansKR-Bold;
-    background-image: url("../mainpageSample.png");
+    height: 100vh;
+    background-image: linear-gradient(-45deg, pink, skyblue);
     background-position-x : center;
-    background-size: 120%;
     background-repeat: no-repeat;
-    background-color: #0b0417;
-    color:aliceblue;
+    color:#222222;
 }
 #indexTitle{
     font-size: 30px;
+    line-height: 70px;
 }
 #indexTitle{
     margin-top: 50px;
@@ -28,6 +31,7 @@ body{
     position: absolute;
     bottom: 20px;
     left: 50%; transform: translateX(-50%);
+    font-size:10px;
 }
 button{
     font-size: 20px;
