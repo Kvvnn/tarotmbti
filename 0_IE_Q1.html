@@ -25,18 +25,17 @@
         #answerBox{
             position : absolute ;
             bottom: 100px ;
-            right: -15px;
-            width : 270px;
+            right: 0px;
+            width : 250px;
             display : flex;
             background-color: #EEEEEE;
             box-shadow:inset 10px 10px 10px #CCCCCC;
-            border-radius: 15px;
+            border-radius: 15px 0 0 15px;
             padding: 15px;
         }
         .selectButton{
             font-family: IBMPlexSansKR-Bold;
             border:0;
-            margin-right:15px;
             background-color: coral;
             text-align: right;
             width : 120px ;
@@ -45,7 +44,9 @@
             border-radius: 10px;
             padding : 10px;
             box-shadow: 10px 10px 10px #CCCCCC;
-            
+        }
+        .selectButton:first-child{
+        margin-right:15px;
         }
     </style>
 
