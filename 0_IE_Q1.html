@@ -3,16 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Q0-1></Q0-1></title>
-    <link rel="stylesheet" type = "text/css" href= "css/questionStyle.css">
+    <title>Q0-1</title>
+    <style>
+    @font-face {
+        font-family: 'IBMPlexSansKR-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    html{
+            background-color: white;
+            
+
+ 
+ }
+        body{
+            margin:5%;
+        }
+        #answerBox{
+            position : absolute ;
+            bottom: 0 ;
+            width : 90% ;
+            display : flex;
+            justify-content: space-between;
+        }
+        .selectButton{
+            border:0px;
+            background-color: coral;
+
+            width : 45% ;
+            height : 200px;
+            
+            border-radius: 30px;
+            
+        }
+    </style>
 
 </head>
 <body>
-    <h1>I?</h1>
+    <h1></h1>
     나는 I입니당
-    <p><button type="button" onclick="location.href='index.html'">처음으로!</button></p>
     <h2>당신은 I인가요? 아니면 E인가요?</h2>
-    <p><button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">II 입니당</button></p>
-    <p><button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">&IE 입니당</button></p>
+    <div id = "answerBox">
+        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">II 입니당</button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">&IE 입니당</button>
+    </div>
 </body>
 </html>

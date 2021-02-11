@@ -9,11 +9,11 @@ body{
     position: relative;
     font-size: 20px;
     background-color: snow;
-    border: 0;
+    border: 3px solid pink;
     text-align: center;
     padding-top : 10px;
     padding-bottom: 10px;
-    width: 95%;
+    width : 45%
 }
 h2{
     margin-top: 0;

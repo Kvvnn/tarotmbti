@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q1-0</title>
     <link rel="stylesheet" type = "text/css" href= "css/questionStyle.css">
-
+<style>
+    #questionBox{
+        margin-left: 20px;
+        text-align: left;
+    }
+    #answerBox{
+        display : flex;
+        flex-direction: row;
+        justify-content:space-around;
+        
+    }
+    h1{
+        
+    }
+</style>
 </head>
 <body>
-    <h1>당신은 오랜만에 소개팅을 나갔습니다.</h1>
-    
-    <h2>당신이 상대에게 한 질문은...</h2>
-    <p><button class = "selectButton" type="button" onclick="location.href='0_IE_Q1.html'">취미가 뭐예요?</button></p>
-    <p><button class = "selectButton" type="button" onclick="location.href='0_IE_Q2.html'">어떤 색깔의 옷을 주로 입으시나요?</button></p>
+    <div id = "questionBox">
+        <h1>당신은 오랜만에 소개팅을 나갔습니다.</h1>    
+        <h2>당신이 상대에게 한 질문은...</h2>
+    </div>
+    <div id = "answerBox">
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q1.html'">취미가 뭐예요?</button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q2.html'">어떤 색깔의 옷을 주로 입으시나요?</button>
+    </div>
 </body>
 </html>
