@@ -4,66 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q0-1</title>
-    <style>
-    @font-face {
-        font-family: 'IBMPlexSansKR-Bold';
-        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    h2{
-        font-weight: 500;
-        font-size: 15px;
-    }
-    html{
-        font-family: IBMPlexSansKR-Bold;
-        background-color: white;
-        overflow: clip;
-     }
-        body{
-            margin: 50px;
-        }
-        #answerBox{
-            position : absolute ;
-            bottom: 100px ;
-            right: 0px;
-            width : 250px;
-            display : flex;
-            background-color: #EEEEEE;
-            box-shadow:inset 10px 10px 10px #CCCCCC;
-            border-radius: 15px 0 0 15px;
-            padding: 15px;
-            
-            animation: loading 0.5s ease-out
-        }
-        @keyframes loading {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(0);
-            }
-        }
-        .selectButton{
-            font-family: IBMPlexSansKR-Bold;
-            border:0;
-            background-color: rgb(194, 226, 255);
-            text-align: right;
-            width : 120px ;
-            height : 175px;
-            font-size : 18px;
-            border-radius: 10px;
-            padding : 10px;
-            box-shadow: 10px 10px 10px #CCCCCC;
-            touch-action: auto;
-        }
-        .selectButton:first-child{
-        margin-right:15px;
-        }
-        
-        
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="css/questionStyle.css">
 </head>
 <body>
     <h1>바보의 여정</h1>

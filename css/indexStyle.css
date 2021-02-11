@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:IBMPlexSansKR-Bold;
     background-image: url("../mainpageSample.png");
     background-position-x : center;
     background-size: 120%;
