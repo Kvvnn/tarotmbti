@@ -18,6 +18,7 @@
     html{
         font-family: IBMPlexSansKR-Bold;
         background-color: white;
+        overflow: hidden;
      }
         body{
             margin: 50px;
@@ -32,11 +33,21 @@
             box-shadow:inset 10px 10px 10px #CCCCCC;
             border-radius: 15px 0 0 15px;
             padding: 15px;
+            
+            animation: loading 0.5s ease-out
+        }
+        @keyframes loading {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
         }
         .selectButton{
             font-family: IBMPlexSansKR-Bold;
             border:0;
-            background-color: coral;
+            background-color: rgb(194, 226, 255);
             text-align: right;
             width : 120px ;
             height : 175px;
