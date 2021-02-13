@@ -19,9 +19,8 @@ body{
 #indexTitle{
     font-size: 23px;
     line-height: 55px;
-}
-#indexTitle{
-    margin-top: 150px;
+
+    margin-top: 250px;
 }
 #indexMain{
     margin-top: 50px;
@@ -39,7 +38,7 @@ button{
     font-family: IBMPlexSansKR-Bold;
     font-size: 20px;
     border-radius: 4px;
-    background-color: aliceblue;
+    background-color: #F0F000;
     color:#010e20;
     border: 0;
     padding: 15px 30px;

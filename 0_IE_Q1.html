@@ -5,14 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q0-1</title>
     <link rel="stylesheet" type="text/css" href="css/questionStyle.css">
+<style>
+    html{
+        background-color: #150505;
+        color: darkgray;
+    }
+    #towerImg{
+        position: absolute;
+        right: -170px;
+        top: 0px;
+        width : 500px;
+        z-index: -2;
+    }
+    .towerPerson{
+        width : 200%;
+        position : absolute;
+        top: -100px;
+        right: -760px;
+
+    }
+    #tower1{
+        animation: dropping 1s ease-out;
+    }
+    @keyframes dropping{
+        0%{
+            transform: rotateX(30deg) translateY(-5%); 
+        }
+        100%{
+            transform: rotateX(0) translateY(0);
+        }
+    }
+
+
+    .selectButton{
+        background-color: #150505;
+        color: #DDDDDD;
+    }
+</style>
 </head>
 <body>
-    <h1>바보의 여정</h1>
-    <h2>당신은 새로운 모험의 기회를 얻었습니다. <br \>
-        당신은 어떻게 행동할까요?</h2>
+    <h1>탑의 시련</h1>
+    <h2>당신은 탑을 오르고 있었습니다. <br \><br \>
+        그 때, <br \>굉음과 함께 탑이 무너져 내립니다. <br \>
+        당신은 어떻게 행동할까요?    
+    </h2>
+    <input id="towerImg" type="image" src="tower0.jpg">
+    <input class= "towerPerson" id="tower1" type="image" src="tower1.png">
     <div id = "answerBox">
-        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">즐거운 <br \>마음으로 <br \>바로<br \>모험을<br \>떠납니다.</button>
-        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">어떤 위험이<br \>있을 지<br \>생각하며<br \>모험 계획을<br \>세웁니다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">얼른<br \>뛰어내려가<br \>살아<br \>남습니다.<br \></button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">구할<br \>사람은<br \>없는지<br \>주변을 먼저<br \>둘러봅니다.</button>
     </div>
 </body>
 </html>

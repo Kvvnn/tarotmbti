@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q0-0</title>
     <link rel="stylesheet" type = "text/css" href= "css/questionStyle.css">
+<style>
+        #imageSimbol{
+        position: absolute;
+        top: -10%;
+        right: -250px;
+        z-index: -1;
+        height: 1200px;
+    
+        animation: loading 1s ease-out;
+    }
 
+    @keyframes loading {
+        0% {
+            transform: translateX(30%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+</style>
 </head>
 <body>
     <h1>바보의 여정</h1>
