@@ -17,11 +17,12 @@
         width : 500px;
         z-index: -2;
     }
-    .towerPerson{
-        width : 200%;
+    #tower1{
+        width : 1440px;
         position : absolute;
-        top: -170px;
+        top: -200px;
         right: -1000px;
+        
 
     }
     #tower1{
@@ -29,7 +30,7 @@
     }
     @keyframes dropping{
         0%{
-            transform: rotateX(30deg) translateY(-5%); 
+            transform: rotateX(40deg) translateY(-5%); 
         }
         100%{
             transform: rotateX(0) translateY(0);
@@ -50,7 +51,7 @@
         당신은 어떻게 행동할까요?    
     </h2>
     <input id="towerImg" type="image" src="tower0.jpg">
-    <input class= "towerPerson" id="tower1" type="image" src="tower1.png">
+    <input id="tower1" type="image" src="tower1.png">
     <div id = "answerBox">
         <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">얼른<br \>뛰어내려가<br \>살아<br \>남습니다.<br \></button>
         <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">구할<br \>사람은<br \>없는지<br \>주변을 먼저<br \>둘러봅니다.</button>
