@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나에게 맞는 타로카드 찾기</title>
     <link rel="stylesheet" type = "text/css" href= "css/indexStyle.css">
+    <style>
+
+        #cardBox{
+            width : 320px;
+            height : 90vh;
+            background-color: #FFFFFF;
+            border: 2px solid #333333;
+            position: absolute;
+            left:50%; top:48%;
+            transform: translateX(-50%) translateY(-50%);
+            border-radius: 15px;
+        }
+    </style>
 </head>
 <body>
     <div id = "indexTitle"> <h1>나에게 맞는<br \>타로카드는?</h1></div>
@@ -14,6 +27,7 @@
     </div>
     <div id = "indexFoot">
         editted by <a href="https://www.instagram.com/KK_vvnn">@KK_vvnn</a>, 정새별
-    </div>  
+    </div>
+    <div id = "cardBox" style = "z-index: -1"></div> 
 </body>
 </html>
