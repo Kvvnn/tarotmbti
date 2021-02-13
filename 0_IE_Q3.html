@@ -3,15 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q0-3</title>
+    <title>Q0-0</title>
     <link rel="stylesheet" type = "text/css" href= "css/questionStyle.css">
+<style>
+    html{
+        background-color: rgb(135,182,208);
+    }
+    #questionBox{
+        position: absolute;
+        bottom:120px;
+        right: 30px;
+    }
+    #imageSimbol{
+        position: absolute;
+        right: 100px;
+        top:-100px;
+        z-index: -1;
+        width: 90%;
+    
+        animation: comeDown 1s ease-out;
+    }
+    @keyframes comeDown {
+        0% {
+            transform: translateY(-2%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 100%;
+        }
+    }
+    .selectButton{
+        background-color: rgb(240, 218, 98);
+    }
+</style>
 </head>
 <body>
-    <h1>&IE</h1>
-    <p><button type="button" onclick="location.href='index.html'">처음으로!</button></p>
-    저는 잘 모르겠습니당
-    <h2>당신은 I인가요? 아니면 E인가요?</h2>
-    <p><button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">I 입니당</button></p>
-    <p><button class = "selectButton" type="button" onclick="location.href='1_E_NS_Q0.html'">E 입니당</button></p>
+    <div id="questionBox">
+    <h1>심판의 시간</h1>
+    <h2>힘들게 도망친 당신은 천사를 만났습니다. <br \>
+        천사는 당신의 목숨을 살려주는 대신 대가를 원합니다. <br \>
+        둘 중 어떤 것을 선택할까요?
+    </h2>
+    </div>
+        <input id="imageSimbol" type= "image" src= "JudgementImg.png">
+    <div id = "answerBox">
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q1.html'">앞으로 벌<br \>모든 재산의<br \>70%를 <br \>바친다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q2.html'">앞으로<br \>평생 혼자<br \>살 것을<br \>맹세한다.</button>
+    </div>
 </body>
 </html>
+
