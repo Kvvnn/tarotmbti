@@ -14,19 +14,20 @@
         position: absolute;
         
         top:170px;
-        right: -200px;
+        right: -100px;
         z-index: -1;
         width: 600px;
     
         animation: comeDown 1s ease-out;
+        animation-delay: 0.2s;
     }
     @keyframes comeDown {
         0% {
-            transform: translateY(-2%);
+            transform: translateY(0);
             opacity: 0;
         }
         100% {
-            transform: translateX(0);
+            transform: translateY(2%);
             opacity: 100%;
         }
     }
