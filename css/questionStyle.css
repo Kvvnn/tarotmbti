@@ -11,7 +11,7 @@ h2{
 html{
     font-family: IBMPlexSansKR-Bold;
     background-color: rgb(234,202,56);
-    overflow: clip;
+    overflow: hidden;
  }
     body{
         margin: 50px;
@@ -32,7 +32,7 @@ html{
     #imageSimbol{
         position: absolute;
         top: -10%;
-        right: -200px;
+        right: -250px;
         z-index: -1;
         height: 1200px;
 
@@ -49,13 +49,13 @@ html{
     .selectButton{
         font-family: IBMPlexSansKR-Bold;
         border:0;
-        background-color: rgb(115, 163, 96);
-        text-align: right;
+        background-color: rgb(208, 84, 54);
+        text-align: left;
         width : 120px ;
         height : 175px;
         font-size : 18px;
         border-radius: 10px;
-        padding : 10px;
+        padding : 15px;
         box-shadow: 10px 10px 10px #CCCCCC;
         touch-action: auto;
     }
