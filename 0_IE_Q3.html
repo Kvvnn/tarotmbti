@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q0-0</title>
+    <title>Q0-3</title>
     <link rel="stylesheet" type = "text/css" href= "css/questionStyle.css">
+
 <style>
     html{
         background-color: rgb(135,182,208);
+        
     }
 
     #imageSimbol{
         position: absolute;
         
-        top:170px;
+        top:180px;
         right: -100px;
         z-index: -1;
         width: 600px;
     
         animation: comeDown 1s ease-out;
-        animation-delay: 0.2s;
     }
     @keyframes comeDown {
         0% {
-            transform: translateY(0);
+            transform: translateY(-2%);
             opacity: 0;
         }
         100% {
-            transform: translateY(2%);
+            transform: translateY(0);
             opacity: 100%;
         }
     }
