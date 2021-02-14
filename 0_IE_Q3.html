@@ -8,9 +8,15 @@
     <script>
         $(window).load(function() {
             $("body").removeClass("preload");
-             });
+        });
     </script>
 <style>
+        .preload * {
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            -o-transition: none !important;
+        }
     html{
         background-color: rgb(135,182,208);
         
@@ -41,7 +47,7 @@
     }
 </style>
 </head>
-<body>
+<body class="preload">
     <div id="questionBox">
     <h1>심판의 시간</h1>
     <h2>힘들게 도망친 당신은 천사를 만났습니다. <br \>

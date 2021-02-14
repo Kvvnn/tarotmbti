@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q0-1</title>
     <link rel="stylesheet" type="text/css" href="css/questionStyle.css">
-<script>
-    $(window).load(function() {
-        $("body").removeClass("preload");
-         });
-</script>
+    <script>
+        $(window).load(function() {
+            $("body").removeClass("preload");
+        });
+    </script>
 <style>
+        .preload * {
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -ms-transition: none !important;
+            -o-transition: none !important;
+        }    
     html{
         background-color: #150505;
         color: darkgray;
@@ -49,7 +55,7 @@
     }
 </style>
 </head>
-<body>
+<body class = "preload">
     <h1>탑의 시련</h1>
     <h2>당신은 탑을 오르고 있었습니다. <br \><br \>
         그 때, <br \>굉음과 함께 탑이 무너져 내립니다. <br \>
