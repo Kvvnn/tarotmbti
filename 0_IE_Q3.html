@@ -24,26 +24,6 @@
         
     }
 
-    #imageSimbol{
-        position: absolute;
-        
-        top:180px;
-        right: -200px;
-        z-index: -1;
-        width: 800px;
-    
-        animation: comeDown 1s ease-out;
-    }
-    @keyframes comeDown {
-        0% {
-            transform: translateY(-2%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateY(0);
-            opacity: 100%;
-        }
-    }
     .selectButton{
         background-color: rgb(240, 218, 98);
     }
@@ -56,11 +36,10 @@
         천사는 당신의 목숨을 살려주는 대신 대가를 원합니다. <br \>
         둘 중 어떤 것을 선택할까요?
     </h2>
-    </div>
-        <input id="imageSimbol" type= "image" src= "JudgementImg.png">
+       
     <div id = "answerBox">
-        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">앞으로 벌<br \>모든 재산의<br \>70%를 <br \>바친다.</button>
-        <button class = "selectButton" type="button" onclick="location.href='1_E_NS_Q0.html'">앞으로<br \>평생 혼자<br \>살 것을<br \>맹세한다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='1_I_NS_Q0.html'">앞으로 벌 모든 재산의<br \>70%를 바친다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='1_E_NS_Q0.html'">앞으로 평생 혼자 살 것을<br \>맹세한다.</button>
     </div>
 </body>
 </html>

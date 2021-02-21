@@ -14,17 +14,20 @@ html{
     overflow: hidden;
  }
     body{
-        margin: 50px;
+        text-align: center;
     }
     #answerBox{
         position : absolute ;
         bottom: 100px ;
-        left: 0px;
-        width : 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        width : 500px;
         display : flex;
+        flex-direction: column;
+        align-items: center;
         background-color: #EEEEEE;
         box-shadow:inset 10px 10px 10px #CCCCCC;
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px;
         padding: 15px;
         z-index: 2;
  
@@ -33,9 +36,9 @@ html{
         font-family: IBMPlexSansKR-Bold;
         border:0;
         background-color: rgb(208, 84, 54);
-        text-align: left;
-        width : 120px ;
-        height : 175px;
+        text-align: center;
+        width : 85% ;
+        height : max-content;
         font-size : 18px;
         border-radius: 10px;
         padding : 15px;
@@ -43,5 +46,5 @@ html{
         touch-action: auto;
     }
     .selectButton:first-child{
-    margin-right:15px;
+    margin-bottom : 10px;
     }

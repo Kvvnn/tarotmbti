@@ -22,33 +22,6 @@
         background-color: #150505;
         color: darkgray;
     }
-    #towerImg{
-        position: absolute;
-        right: -170px;
-        top: 0px;
-        width : 500px;
-        z-index: -2;
-    }
-    #tower1{
-        width : 1440px;
-        position : absolute;
-        top: -200px;
-        right: -1000px;
-        
-
-    }
-    #tower1{
-        animation: dropping 1s ease-out;
-    }
-    @keyframes dropping{
-        0%{
-            transform: rotateX(40deg) translateY(-5%); 
-        }
-        100%{
-            transform: rotateX(0) translateY(0);
-        }
-    }
-
 
     .selectButton{
         background-color: #150505;
@@ -62,11 +35,10 @@
         그 때, <br \>굉음과 함께 탑이 무너져 내립니다. <br \>
         당신은 어떻게 행동할까요?    
     </h2>
-    <input id="towerImg" type="image" src="tower0.jpg">
-    <input id="tower1" type="image" src="tower1.png">
+
     <div id = "answerBox">
-        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">얼른<br \>뛰어내려가<br \>살아<br \>남습니다.<br \></button>
-        <button class = "selectButton" type="button" onclick="location.href='1_E_NS_Q0.html'">구할<br \>사람은<br \>없는지<br \>주변을 먼저<br \>둘러봅니다.</button>
+        <button class = "selectButton" type="button" onclick="location.href='0_IE_Q3.html'">얼른 뛰어내려가<br \>살아 남습니다.<br \></button>
+        <button class = "selectButton" type="button" onclick="location.href='1_E_NS_Q0.html'">구할 사람은 없는지<br \>주변을 먼저 둘러봅니다.</button>
     </div>
 </body>
 </html>
