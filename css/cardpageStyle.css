@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
         body{
-            display : table; margin-left: auto; margin-right: auto;
+            
             text-align : center;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #010e20;
-            color:aliceblue;
+            font-family:'IBMPlexSansKR-Bold';
+            background-image: linear-gradient(-45deg, rgb(255, 138, 206), rgb(255, 252, 235));
+            background-position-x : center;
+            background-repeat: no-repeat;
+            color:#222222;
             
         }
         .cardImage{
@@ -19,9 +28,17 @@
         h1{
             margin:0;
         }
+        #pageMiddle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .topics{
             margin: 30px;
             max-width: 600px;
+            padding : 30px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.5);
         }
         #pageFoot{
             margin: 30px;
@@ -36,11 +53,19 @@
         .foots{
             margin:10px;
             padding: 5px;
-            background-color: snow;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.5);
             color: #0b0417;
         }
         ul{
             margin: 10px ;
             line-height: 200%;
         
+        }
+        button{
+            border: 0;
+            font-family:'IBMPlexSansKR-Bold';
+            background-color: yellow;
+            padding : 5px 15px 5px 15px;
+            border-radius: 5px;
         }
