@@ -1,49 +1,56 @@
-@font-face {
-    font-family: 'IBMPlexSansKR-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+html{
+    background-image: linear-gradient(170deg, #E784B3 50%, #D4B1EB);;
+    background-position-x : center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:snow;
+    overflow: hidden;
+ }
+body{
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    margin-top: 280px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
 }
 h2{
     font-weight: 500;
     font-size: 15px;
 }
-html{
-    font-family: IBMPlexSansKR-Bold;
-    background-color: rgb(234,202,56);
-    overflow: hidden;
- }
-    body{
-        text-align: center;
-    }
+
+
     #answerBox{
         position : absolute ;
         bottom: 100px ;
         left: 50%;
         transform: translateX(-50%);
         width : 80%;
-        max-width: 700px;
         display : flex;
         flex-direction: column;
         align-items: center;
-        background-color: #EEEEEE;
-        box-shadow:inset 10px 10px 10px #CCCCCC;
-        border-radius: 15px;
-        padding: 15px;
-        z-index: 2;
  
     }
     .selectButton{
-        font-family: IBMPlexSansKR-Bold;
         border:0;
-        background-color: rgb(208, 84, 54);
+        color: #e982e0;
+        background-color: rgba(255, 250, 250, 0.8);
         text-align: center;
-        width : 85% ;
+        width : max-content;
+        min-width: 300px;
         height : max-content;
         font-size : 18px;
         border-radius: 10px;
         padding : 15px;
-        box-shadow: 10px 10px 10px #CCCCCC;
         touch-action: auto;
     }
     .selectButton:first-child{

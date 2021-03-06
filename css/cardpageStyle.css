@@ -1,15 +1,10 @@
-@font-face {
-    font-family: 'IBMPlexSansKR-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-        body{
-            
+
+        body{            
             text-align : center;
-            font-family:'IBMPlexSansKR-Bold';
-            background-image: linear-gradient(-45deg, rgb(255, 138, 206), rgb(255, 252, 235));
+            font-family:'NOTO SANS KR';
+            background-image: linear-gradient(170deg, #E784B3 30%, #D4B1EB);
             background-position-x : center;
             background-repeat: no-repeat;
             color:#222222;
@@ -64,7 +59,7 @@
         }
         button{
             border: 0;
-            font-family:'IBMPlexSansKR-Bold';
+            font-family:"NOTO SANS KR";
             background-color: yellow;
             padding : 5px 15px 5px 15px;
             border-radius: 5px;
