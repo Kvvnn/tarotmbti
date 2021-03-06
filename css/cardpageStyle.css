@@ -17,12 +17,7 @@
         #pageTopTitle{
             margin: 30px;
         }
-        p{
-            margin:0;
-        }
-        h1{
-            margin:0;
-        }
+
         #pageMiddle{
             display: flex;
             flex-direction: column;
@@ -32,7 +27,7 @@
             margin: 30px;
             max-width: 600px;
             padding : 30px;
-            border-radius: 15px;
+            border-radius: 5px;
             background-color: rgba(255, 255, 255, 0.5);
         }
         #pageFoot{
@@ -56,6 +51,9 @@
             margin: 10px ;
             line-height: 200%;
         
+        }
+        li{
+            text-align: left;
         }
         button{
             border: 0;
