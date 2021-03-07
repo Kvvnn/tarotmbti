@@ -14,11 +14,45 @@
             left : 50%; top : 70%;
             transform: translateX(-50%) translateY(-50%);
         }
+        #backgroundFX{
+            width: 500px;
+            
+        }
+        .starLine {
+            stroke-dasharray: 300;
+            animation: dash 5s linear infinite;
+            animation-timing-function: ease;
+            stroke: black; stroke-miterlimit:10;
+            
+        }
 
-        
+        @keyframes dash {
+            0%{
+                stroke-dashoffset: 300;
+                
+                opacity: 100;
+            }
+            50%{
+                opacity: 100;
+            }
+            100% {
+                stroke-dashoffset: 0;
+                opacity: 0;
+             }
+        }     
     </style>
 </head>
 <body>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#00bc9b" />
+        <stop offset="100%" stop-color="#000000" />
+</linearGradient>
+<div id = backgroundFX>
+    <svg id="star_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+        <line class="starLine" x1="11.69" y1="90.51" x2="284.63" y2="15.6"/>
+    </svg>
+</div>
+
 <div id = "textBox">
     <div id = "indexSub"> #화이트데이 #성격유형테스트</div>
     <div id = "indexMain">
