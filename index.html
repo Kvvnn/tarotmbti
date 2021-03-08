@@ -18,39 +18,113 @@
             width: 500px;
             
         }
-        .starLine {
-            stroke-dasharray: 300;
-            animation: dash 5s linear infinite;
-            animation-timing-function: ease;
-            stroke: black; stroke-miterlimit:10;
-            
+
+        #star_1{
+            position: absolute; width: 300px;
+            transform: translateX(50px) translateY(200px);
+        }
+        #star_2{
+            position: absolute; width: 300px;
+            transform: translateX(150px) translateY(100px);
+        }
+        #star_3{
+            position: absolute; width: 300px;
+            transform: translateX(500px) translateY(150px);
+        }
+        #star_4{
+            position: absolute; width: 300px;
+            transform: translateX(400px) translateY(70px);
+        }
+        #star_5{
+            position: absolute; width: 300px;
+            transform: translateX(200px) translateY(50px);
         }
 
+        .starLine {
+            
+            stroke-dasharray: 700;
+            stroke-width: 10px;
+            stroke-linecap: round;
+            
+            animation-timing-function: ease;
+            stroke-miterlimit:10; stroke:url(#linear-gradient);
+            
+        }
+        #line1{animation: dash 2.4s linear infinite;}
+        #line2{animation: dash 3s linear infinite;}
+        #line3{animation: dash 2.7s linear infinite;}
+        #line4{animation: dash 2.5s linear infinite;}
+        #line5{animation: dash 2.3s linear infinite;}
         @keyframes dash {
             0%{
-                stroke-dashoffset: 300;
-                
+                stroke-dashoffset: 700;
+                opacity: 100;
+            }
+            25%{
                 opacity: 100;
             }
             50%{
-                opacity: 100;
+                stroke-dashoffset: 0;
+                opacity: 0;
             }
             100% {
-                stroke-dashoffset: 0;
+                
                 opacity: 0;
              }
         }     
     </style>
 </head>
 <body>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#00bc9b" />
-        <stop offset="100%" stop-color="#000000" />
-</linearGradient>
+
 <div id = backgroundFX>
-    <svg id="star_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
-        <line class="starLine" x1="11.69" y1="90.51" x2="284.63" y2="15.6"/>
+    <svg id="star_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+            </linearGradient>
+        </defs>
+            <line id="line1" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
     </svg>
+
+    <svg id="star_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+            </linearGradient>
+        </defs>
+            <line id="line2" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
+    </svg>
+
+    <svg id="star_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+            </linearGradient>
+        </defs>
+            <line id="line3" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
+    </svg>
+    <svg id="star_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+            </linearGradient>
+        </defs>
+            <line id="line4" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
+    </svg>
+    <svg id="star_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+        <defs>
+            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+            </linearGradient>
+        </defs>
+            <line id="line5" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
+    </svg>
+    
 </div>
 
 <div id = "textBox">
