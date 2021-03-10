@@ -33,7 +33,8 @@
         #pageFoot{
             margin: 30px;
             display : grid;
-            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            grid-template-columns: 200px 200px;
         }
         .footTitle{
             margin-top: 20px;
