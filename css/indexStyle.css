@@ -17,11 +17,11 @@ body{
     color:snow;
 }
 #indexImage{
-    width : 40%;
+    width : 60%;
     
-    max-width: 250px;
+    max-width: 300px;
     position : absolute;
-    left : 50%; top : 40%;
+    left : 50%; top : 37%;
     transform: translateX(-50%) translateY(-50%);
 }
 #indexSub{
