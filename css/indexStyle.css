@@ -16,6 +16,12 @@ body{
     background-repeat: no-repeat;
     color:snow;
 }
+#indexImage{
+    position: absolute;
+    left:50%; bottom: 350px;
+    transform: translateX(-50%);
+    width: 250px;
+}
 #indexSub{
     font-family: 'NotoSerifKR';
     font-size: 15px;

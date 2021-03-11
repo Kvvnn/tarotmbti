@@ -23,7 +23,7 @@
 
         #star_1{
             position: absolute; width: 300px; left:50%;
-            transform: translateX(-50%) translateY(150px);
+            transform: translateX(-50%) translateY(50px);
         }
         #star_2{
             position: absolute; width: 300px; left:20%;
@@ -31,11 +31,11 @@
         }
         #star_3{
             position: absolute; width: 300px; left:50%;
-            transform: translateX(-20%) translateY(150px);
+            transform: translateX(-20%) translateY(-30px);
         }
         #star_4{
             position: absolute; width: 300px; left:50%;
-            transform: translateX(0%) translateY(70px);
+            transform: translateX(-20%) translateY(80px);
         }
         #star_5{
             position: absolute; width: 300px; left:20%;
@@ -47,7 +47,7 @@
             stroke-dasharray: 700;
             stroke-width: 10px;
             stroke-linecap: round;
-            
+
             animation-timing-function: ease;
             stroke-miterlimit:10; stroke:url(#linear-gradient);
             
@@ -86,13 +86,12 @@
  data-ad-width   = "320" 
  data-ad-height  = "50"></ins> 
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-
 <div id = backgroundFX>
     <svg id="star_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
             <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
+                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
             </linearGradient>
         </defs>
             <line id="line1" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
@@ -101,8 +100,8 @@
     <svg id="star_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
             <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
+                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
             </linearGradient>
         </defs>
             <line id="line2" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
@@ -111,8 +110,8 @@
     <svg id="star_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
             <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
+                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
             </linearGradient>
         </defs>
             <line id="line3" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
@@ -120,8 +119,8 @@
     <svg id="star_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
             <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
+                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
             </linearGradient>
         </defs>
             <line id="line4" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
@@ -129,15 +128,17 @@
     <svg id="star_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
             <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-                <stop offset="1" stop-color="#fff" stop-opacity="70%"/>
+                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
+                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
             </linearGradient>
         </defs>
             <line id="line5" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
     </svg>
     
 </div>
-
+<div >
+    <input id = "indexImage" type="image" src = "img/Index_art.png">
+</div>
 <div id = "textBox">
     <div id = "indexSub"> #화이트데이 #성격유형테스트</div>
     <div id = "indexMain">
