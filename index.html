@@ -19,6 +19,23 @@
             width: 70%;
         }
 
+        #circle1{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: #c5f9f0aa solid 2px;
+            position: absolute; left:25%;
+            transform: translateX(-50%) translateY(50px);
+        }
+        #circle2{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: #c5f9f0aa solid 2px;
+            position: absolute; left:75%;
+            transform: translateX(-50%) translateY(200px);
+        }
+
         #star_1{
             position: absolute; width: 300px; left:50%;
             transform: translateX(-50%) translateY(50px);
@@ -78,6 +95,7 @@
  data-ad-width   = "320" 
  data-ad-height  = "50"></ins> 
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
 <div id = backgroundFX>
     <svg id="star_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
         <defs>
@@ -126,7 +144,8 @@
         </defs>
             <line id="line5" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
     </svg>
-    
+    <div id="circle1"></div>
+    <div id="circle2"></div>
 </div>
 <div >
     <input id = "indexImage" type="image" src = "img/Index_art.png">
