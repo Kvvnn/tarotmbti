@@ -17,8 +17,6 @@
         #backgroundFX{
             position : absolute; left : 50%; transform: translateX(-50%);
             width: 70%;
-        
-            
         }
 
         #star_1{
@@ -50,30 +48,64 @@
 
             animation-timing-function: ease;
             stroke-miterlimit:10; stroke:url(#linear-gradient);
-            
         }
-        #line1{animation: dash 2.4s linear infinite;}
-        #line2{animation: dash 3s linear infinite;}
-        #line3{animation: dash 2.7s linear infinite;}
-        #line4{animation: dash 2.5s linear infinite;}
-        #line5{animation: dash 2.3s linear infinite;}
+        #line1{
+            animation: dash 2.4s linear infinite;
+            -o-animation: dash 2.3s linear infinite;
+            -moz-animation: dash 2.3s linear infinite;
+            -webkit-animation: dash 2.3s linear infinite;
+            }
+        #line2{
+            animation: dash 3s linear infinite;
+            -o-animation: dash 2.3s linear infinite;
+            -moz-animation: dash 2.3s linear infinite;
+            -webkit-animation: dash 2.3s linear infinite;
+            }
+        #line3{
+            animation: dash 2.7s linear infinite;
+            -o-animation: dash 2.3s linear infinite;
+            -moz-animation: dash 2.3s linear infinite;
+            -webkit-animation: dash 2.3s linear infinite;
+            }
+        #line4{
+            animation: dash 2.5s linear infinite;
+            -o-animation: dash 2.3s linear infinite;
+            -moz-animation: dash 2.3s linear infinite;
+            -webkit-animation: dash 2.3s linear infinite;
+            }
+        #line5{
+            animation: dash 2.3s linear infinite;
+            -o-animation: dash 2.3s linear infinite;
+            -moz-animation: dash 2.3s linear infinite;
+            -webkit-animation: dash 2.3s linear infinite;
+            }
         @keyframes dash {
-            0%{
-                stroke-dashoffset: 700;
-                opacity: 100;
-            }
-            25%{
-                opacity: 100;
-            }
-            50%{
-                stroke-dashoffset: 0;
-                opacity: 0;
-            }
-            100% {
-                
-                opacity: 0;
-             }
+            0%{stroke-dashoffset: 700; opacity: 100;}
+            25%{opacity: 100;}
+            50%{stroke-dashoffset: 0; opacity: 0;}
+            100% {opacity: 0;}
         }
+        @-o-keyframes dash {
+            0%{stroke-dashoffset: 700; opacity: 100;}
+            25%{opacity: 100;}
+            50%{stroke-dashoffset: 0; opacity: 0;}
+            100% {opacity: 0;}
+        }
+        @-moz-keyframes dash {
+            0%{stroke-dashoffset: 700; opacity: 100;}
+            25%{opacity: 100;}
+            50%{stroke-dashoffset: 0; opacity: 0;}
+            100% {opacity: 0;}
+        }
+        @-webkit-keyframes dash {
+            0%{stroke-dashoffset: 700; opacity: 100;}
+            25%{opacity: 100;}
+            50%{stroke-dashoffset: 0; opacity: 0;}
+            100% {opacity: 0;}
+        }
+
+
+
         #backgroundFX{
             max-width: 700px;
             width:50%
