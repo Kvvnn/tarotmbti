@@ -19,7 +19,7 @@ body{
 #indexImage{
     width : 60%;
     
-    max-width: 300px;
+    max-width: 400px;
     position : absolute;
     left : 50%; top : 37%;
     transform: translateX(-50%) translateY(-50%);
