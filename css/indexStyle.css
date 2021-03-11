@@ -17,10 +17,12 @@ body{
     color:snow;
 }
 #indexImage{
-    position: absolute;
-    left:50%; bottom: 350px;
-    transform: translateX(-50%);
-    width: 250px;
+    height : 20%;
+    
+    max-width: 250px;
+    position : absolute;
+    left : 50%; top : 40%;
+    transform: translateX(-50%) translateY(-50%);
 }
 #indexSub{
     font-family: 'NotoSerifKR';
