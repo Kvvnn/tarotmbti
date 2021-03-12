@@ -10,6 +10,12 @@
             color:#222222;
             
         }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+        }
         .cardImage{
             width: 50%;
             max-width: 400px;
@@ -25,7 +31,7 @@
         }
         .topics{
             margin: 30px;
-            max-width: 600px;
+            max-width: 400px;
             padding : 30px;
             border-radius: 5px;
             background-color: rgba(255, 255, 255, 0.5);
@@ -44,7 +50,7 @@
         .foots{
             margin:10px;
             padding: 5px;
-            border-radius: 15px;
+            border-radius: 5px;
             background-color: rgba(255, 255, 255, 0.5);
             color: #0b0417;
         }

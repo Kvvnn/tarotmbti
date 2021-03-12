@@ -15,7 +15,7 @@ body{
 }
 h1{
     position: absolute;
-    left: 50%; bottom: 300px;
+    left: 50%; bottom: 400px;
     transform: translateX(-50%);
     width: max-content;
 
@@ -31,7 +31,7 @@ h2{
 
     #answerBox{
         position : absolute ;
-        bottom: 100px ;
+        bottom: 200px ;
         left: 50%;
         transform: translateX(-50%);
         width : 80%;
@@ -39,6 +39,22 @@ h2{
         flex-direction: column;
         align-items: center;
  
+    }
+    #progressBar{
+        width: 300px;
+        position: absolute;
+        left: 50%; top: 27%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    hr{
+        border: solid 3px snow; width: 300px;
+
+    }
+    #candyIcon{
+        width: 80px;
+        position: absolute;
+        transform: translateY(-40%) translateX(-30px) ;
+
     }
     .selectButton{
         border:0;
@@ -53,6 +69,7 @@ h2{
         padding : 15px;
         touch-action: auto;
     }
+
     .selectButton:first-child{
     margin-bottom : 10px;
     }
