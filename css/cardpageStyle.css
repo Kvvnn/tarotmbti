@@ -8,6 +8,8 @@
             background-position-x : center;
             background-repeat: no-repeat;
             color:#222222;
+            margin: 30px;
+
             
         }
         h1{
@@ -21,7 +23,7 @@
             max-width: 400px;
         }
         #pageTopTitle{
-            margin: 30px;
+            margin-top: 30px;
         }
 
         #pageMiddle{
@@ -65,7 +67,8 @@
         button{
             border: 0;
             font-family:"NOTO SANS KR";
-            background-color: yellow;
+            background-color: snow;
             padding : 5px 15px 5px 15px;
             border-radius: 5px;
+            margin-bottom: 100px;
         }
