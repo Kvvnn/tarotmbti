@@ -15,7 +15,7 @@ body{
 }
 h1{
     position: absolute;
-    left: 50%; bottom: 400px;
+    left: 50%; bottom: 40%;
     transform: translateX(-50%);
     width: max-content;
 
@@ -31,7 +31,7 @@ h2{
 
     #answerBox{
         position : absolute ;
-        bottom: 200px ;
+        bottom: 15% ;
         left: 50%;
         transform: translateX(-50%);
         width : 80%;
