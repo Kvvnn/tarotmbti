@@ -1,34 +1,30 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 
 html{
-    background-image: linear-gradient(170deg, #E784B3 50%, #D4B1EB);;
-    background-position-x : center;
-    background-repeat: no-repeat;
     height: 100vh;
-    color:snow;
+    color:#333333;
     overflow: hidden;
  }
 body{
 
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'UhBeemysen';
 }
 h1{
     position: absolute;
-    left: 50%; bottom: 40%;
+    left: 50%; bottom: 45%;
     transform: translateX(-50%);
     width: max-content;
-
-    font-size: 18px;
+    color: #333333;
+    font-size: 30px;
     font-weight: 400;
     line-height: 35px;
 }
-h2{
-    font-weight: 500;
-    font-size: 15px;
-}
-
-
     #answerBox{
         position : absolute ;
         bottom: 15% ;
@@ -47,29 +43,38 @@ h2{
         transform: translateX(-50%) translateY(-50%);
     }
     hr{
-        border: solid 3px snow; width: 300px;
+        border: solid 1.5px #666666; width: 300px;
 
     }
     #candyIcon{
         width: 80px;
         position: absolute;
-        transform: translateY(-40%) translateX(-30px) ;
+        transform: translateY(-30%) translateX(-30px) rotateZ(-30deg);
 
     }
     .selectButton{
         border:0;
-        color: #e982e0;
-        background-color: rgba(255, 250, 250, 0.8);
+        color: #333333;
+        font-family: 'UhBeemysen';
         text-align: center;
         width : max-content;
         min-width: 300px;
         height : max-content;
-        font-size : 15px;
-        border-radius: 10px;
-        padding : 15px;
+        font-size : 25px;
+        padding : 10px;
         touch-action: auto;
+
     }
 
     .selectButton:first-child{
     margin-bottom : 10px;
+    background: url("/img/answerBox1.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+
+    .selectButton:nth-child(2){
+    background: url("/img/answerBox2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
     }

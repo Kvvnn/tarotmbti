@@ -1,32 +1,31 @@
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 html{
     overflow: hidden;
 }
 body{
-    text-align:center;
-    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    font-family: 'UhBeemysen';
     height: 100vh;
-    background-image: linear-gradient(170deg, #E784B3 30%, #D4B1EB);
     background-position-x : center;
     background-repeat: no-repeat;
-    color:snow;
+    color: #333333;
 }
 #indexImage{
     width : 80%;
     
-    max-width: 400px;
+    max-width: 200px;
     position : absolute;
     left : 50%; top : 37%;
     transform: translateX(-50%) translateY(-50%);
 }
 #indexSub{
-    font-family: 'NotoSerifKR';
-    font-size: 15px;
+    font-size: 20px;
 }
 #indexMain{
     margin-top: 30px;
@@ -41,11 +40,11 @@ body{
 }
 button{
     margin-top : 15px;
-    font-family: 'NotoSerifKR';
-    font-size: 20px;
+    font-family: 'UhBeemysen';
+    font-size: 30px;
     border-radius: 4px;
     background-color: snow;
-    color:#D4B1EB;
+    color:#333333;
     border: 0;
     padding: 20px 100px;
     touch-action: auto;

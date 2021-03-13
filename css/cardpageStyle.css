@@ -1,20 +1,24 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'UhBeemysen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeemysen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 
         body{            
             text-align : center;
-            font-family:'NOTO SANS KR';
-            background-image: linear-gradient(170deg, #E784B3 30%, #D4B1EB);
-            background-position-x : center;
-            background-repeat: no-repeat;
-            color:#222222;
+            font-family:'UhBeemysen';
+            color:#333333;
 
         }
         h1{
-            font-size: 30px;
+            margin: 0;
+            font-size: 50px;
         }
         h2{
-            font-size: 20px;
+            margin: 0;
+            font-size: 35px;
         }
         .cardImage{
             width: 50%;
@@ -22,51 +26,62 @@
         }
         #pageTopTitle{
             margin-top: 30px;
+            background: url("/img/answerBox1.png") no-repeat;
+            background-size: 400px 150px;
+            background-position: center;
         }
 
         #pageMiddle{
+            margin: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         .topics{
-            margin: 30px;
+            font-size: 20px;
             max-width: 400px;
-            padding : 30px;
-            border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.5);
+            padding : 0 30px 0 30px;
+
+        }
+        .topics,h2{
+            margin: 20px
         }
         #pageFoot{
-            margin: 30px;
+            padding: 30px 0 30px 0;
             display : grid;
             justify-content: center;
             grid-template-columns: 200px 200px;
+            background: url("/img/answerBox2.png") no-repeat;
+            background-size: 500px 260px;
+            background-position: center;
         }
         .footTitle{
-            margin-top: 20px;
             margin-bottom: 10px;
-            font-size: 20px;
+            font-size: 30px;
         }
         .foots{
-            margin:10px;
+            margin:0 10px 0 10px;
             padding: 5px;
             border-radius: 5px;
-            background-color: rgba(255, 255, 255, 0.5);
             color: #0b0417;
         }
         ul{
             margin: 10px ;
-            line-height: 200%;
+            line-height: 100%;
+            list-style-image: url("/img/ulDot.png");
+            font-size: 30px;
         
         }
         li{
             text-align: left;
+            font-size:20px;
         }
         button{
             border: 0;
-            font-family:"NOTO SANS KR";
+            font-family:'UhBeemysen';
             background-color: snow;
             padding : 5px 15px 5px 15px;
             border-radius: 5px;
             margin-bottom: 100px;
+            font-size: large;
         }

@@ -13,166 +13,19 @@
             position : absolute;
             left : 50%; top : 70%;
             transform: translateX(-50%) translateY(-50%);
-        }
-        #backgroundFX{
-            position : absolute; left : 50%; transform: translateX(-50%);
-            width: 70%;
-        }
-
-        #circle1{
-            width: 30px;
-            height: 30px;
-            position: absolute; left:25%;
-            transform: translateX(-50%) translateY(50px);
-            animation: opac 4s linear infinite;
-            animation-delay: 0.5s;
-        }
-        #circle2{
-            width: 50px;
-            height: 50px;
-            position: absolute; left:75%;
-            transform: translateX(-50%) translateY(150px);
-            animation: opac 5s linear infinite;
-        }
-        #circle3{
-            width: 20px;
-            height: 20px;
-            position: absolute; left:60%;
-            transform: translateX(-50%) translateY(30px);
-            animation: opac 3.5s linear infinite;
-            animation-delay: 1s;
-        }
-        .circ{
-            border-radius: 50%;
-            border: #c5f9f0aa solid 2px;
-            stroke-miterlimit:10;
-        }
-        @keyframes opac {
-            0%{opacity: 100;}
-            50%{opacity: 0;}
-            75%{opacity: 0;}
-            100% {opacity: 100;}
-        }
-        #star_1{
-            position: absolute; width: 300px; left:50%;
-            transform: translateX(-50%) translateY(50px);
-        }
-        #star_2{
-            position: absolute; width: 300px; left:20%;
-            transform: translateX(-50%) translateY(100px);
-        }
-        #star_3{
-            position: absolute; width: 300px; left:50%;
-            transform: translateX(-20%) translateY(-30px);
-        }
-        #star_4{
-            position: absolute; width: 300px; left:50%;
-            transform: translateX(-20%) translateY(80px);
-        }
-        #star_5{
-            position: absolute; width: 300px; left:20%;
-            transform: translateX(-40%) translateY(0px);
-        }
-
-        .starLine {
-            
-            stroke-dasharray: 700;
-            stroke-width: 10px;
-            stroke-linecap: round;
-
-            animation-timing-function: ease;
-            stroke-miterlimit:10; stroke:url(#linear-gradient);
-        }
-        #line1{
-            animation: dash 2.4s linear infinite;}
-        #line2{
-            animation: dash 3s linear infinite;}
-        #line3{
-            animation: dash 2.7s linear infinite;}
-        #line4{
-            animation: dash 2.5s linear infinite;}
-        #line5{
-            animation: dash 2.3s linear infinite;}
-        @keyframes dash {
-            0%{stroke-dashoffset: 700; opacity: 100;}
-            25%{opacity: 100;}
-            50%{stroke-dashoffset: 0; opacity: 0;}
-            100% {opacity: 0;}
-        }
-
-        #backgroundFX{
-            max-width: 700px;
-            width:50%
-        }
+       }
     </style>
-</head>
+</head> 
 <body>
-    <ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-eXi9egrYpeHmxkpa" 
- data-ad-width   = "320" 
- data-ad-height  = "50"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 
-<div id = backgroundFX>
-    <svg id="star_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
-        <defs>
-            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
-                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
-            </linearGradient>
-        </defs>
-            <line id="line1" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
-    </svg>
-
-    <svg id="star_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
-        <defs>
-            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
-                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
-            </linearGradient>
-        </defs>
-            <line id="line2" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
-    </svg>
-
-    <svg id="star_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
-        <defs>
-            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
-                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
-            </linearGradient>
-        </defs>
-            <line id="line3" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
-    </svg>
-    <svg id="star_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
-        <defs>
-            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
-                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
-            </linearGradient>
-        </defs>
-            <line id="line4" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
-    </svg>
-    <svg id="star_5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
-        <defs>
-            <linearGradient id="linear-gradient" x1="142.2" y1="466.05" x2="799.69" y2="466.05" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#C5F9F0" stop-opacity="0"/>
-                <stop offset="1" stop-color="#C5F9F0" stop-opacity="70%"/>
-            </linearGradient>
-        </defs>
-            <line id="line5" class="starLine" x1="142.37" y1="586.38" x2="799.52" y2="345.73"/>
-    </svg>
-    <div id = "circle1" class = "circ"></div>
-    <div id = "circle2" class = "circ"></div>
-    <div id = "circle3" class = "circ"></div>
-</div>
-<div >
+<div>
     <input id = "indexImage" type="image" src = "img/Index_art.png">
 </div>
 <div id = "textBox">
     <div id = "indexSub"> #화이트데이 #성격유형테스트</div>
     <div id = "indexMain">
         나에게 어울리는 캔디는?
-        <p><button id="indexButton" type="button" onclick="location.href='0_Q0.html'">시작하기</button></p>
+        <p><button id="indexButton" type="button" onclick="location.href='0_Q0.html'">시작하기-></button></p>
     </div>
 </div>
     <div id = "indexFoot">
